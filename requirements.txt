@@ -1,0 +1,44 @@
+# Core
+numpy==2.1.3
+scipy==1.14.1
+pandas==2.2.3
+scikit-learn==1.5.2
+
+# Gradient boosting & classical ML
+xgboost==3.1.2          # works with Python >=3.10 [web:91]
+
+# Deep learning: PyTorch (choose wheel matching your CUDA when installing)
+torch==2.5.1
+torchvision==0.20.1
+torchaudio==2.5.1       # PyTorch 2.5.x supports Python 3.9–3.11 [web:74][web:64]
+
+# Time-series & sequence models
+pytorch-tcn==1.0.0      # Temporal Convolutional Networks [web:90]
+
+# Optimization & training utilities
+optuna==4.0.0
+tqdm==4.66.5
+
+# Config, logging, experiment management
+hydra-core==1.3.2
+omegaconf==2.3.0
+tensorboard==2.18.0
+
+# Visualization & analysis
+matplotlib==3.9.2
+seaborn==0.13.2
+plotly==5.24.1
+
+# Uncertainty & calibration helpers
+netcal==1.3.5           # Expected Calibration Error, etc.
+statsmodels==0.14.4
+
+# Data handling / I/O
+pyyaml==6.0.2
+h5py==3.12.1
+
+# Notebook and dev
+jupyterlab==4.3.1
+ipykernel==6.29.5
+black==24.10.0
+isort==5.13.2

@@ -1,0 +1,83 @@
+# --- Python Core ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Virtual Environments ---
+env/
+venv/
+ENV/
+.venv
+env.bak/
+venv.bak/
+*env*/
+
+# --- IDEs & Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+# Uncomment the line below if you don't want to commit notebooks
+# *.ipynb
+
+# --- Res-PhyT Data & Large Files ---
+# Ignore raw datasets and processed tensors
+data/
+# Specific file types used in this project
+*.mat
+*.npz
+*.csv
+*.xlsx
+*.h5
+*.pkl
+*.pickle
+
+# --- Models & Checkpoints ---
+models/
+checkpoints/
+*.pt
+*.pth
+
+# --- Logs & Experiment Outputs ---
+logs/
+outputs/
+results/
+experiments/
+
+# --- Hydra Framework ---
+# Hydra generates a .hydra folder and multirun directory for sweeps
+.hydra/
+multirun/
+
+# --- Weights & Biases (WandB) ---
+wandb/
+
+# --- Environment Variables ---
+.env
+.env.local
