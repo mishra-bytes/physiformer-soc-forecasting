@@ -6,6 +6,8 @@ Residual Physics-Informed Transformer for battery State-of-Charge (SOC) forecast
 
 ## 📂 Project Structure
 
+
+
 ```text
 res-phyt/
 ├── configs/                 # Configuration files (Hydra YAMLs)
@@ -28,17 +30,17 @@ res-phyt/
 │   └── utils/               # Helper scripts (logging, metrics, checkpointing)
 ├── requirements.txt         # Project dependencies
 └── setup_project.py         # Script to initialize folder structure
-
-'''
-
+```
 
 
 
-- **configs/**: Experiment settings (learning rate, batch size, model size) in YAML format
-- **data/raw/**: Original data files (.mat, .csv) in read-only format
-- **data/processed/**: Clean, feature-engineered .npz tensors for model training
-- **notebooks/**: Sandbox for experiments, visualization, and prototyping
-- **src/data/loaders/**: File format handlers for various data sources
-- **src/data/preprocessing.py**: Feature engineering implementation (derivatives, Nernst, Arrhenius equations)
-- **src/models/**: PyTorch implementation of Res-PhyT (Encoder, Decoder, Probability Head)
-- **src/utils/**: Helper utilities (checkpoints, WandB logging, metrics calculation)
+### 📂 Folder Explanations
+- **configs/** → Experiment settings (learning rate, batch size, model size) in YAML format  
+- **data/raw/** → Original data files (.mat, .csv) in read-only format  
+- **data/processed/** → Clean, feature-engineered `.npz` tensors for model training  
+- **notebooks/** → Sandbox for experiments, visualization, and prototyping  
+- **src/data/loaders/** → File format handlers for various data sources  
+- **src/data/preprocessing.py** → Feature engineering implementation (derivatives, Nernst, Arrhenius equations)  
+- **src/models/** → PyTorch implementation of Res-PhyT (Encoder, Decoder, Probability Head)  
+- **src/utils/** → Helper utilities (checkpoints, WandB logging, metrics calculation)  
+
